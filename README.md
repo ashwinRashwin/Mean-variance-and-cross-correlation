@@ -27,12 +27,13 @@ To write a program for mean, variance and cross correlation in SCILAB and verify
 
 # TABULATION
 
-# CALCULATION
+<img width="953" height="1600" alt="WhatsApp Image 2026-08-28 at 4 16 32 PM" src="https://github.com/user-attachments/assets/9347e4c0-a870-4177-85d8-012530e48aed" />
+
 
 # OUTPUT
-i)	Mean of X =	0.25 Mean of Y =	0.25
+i)	Mean of X =	0.333 Mean of Y =	0.333
 
-ii)	Variance of X	 0.0375 Variance of Y	0.0375
+ii)	Variance of X	 0.0222 Variance of Y	0.0222
 
 Cross Correlation
 Type in the reference sequence = [1 2 3 4 5 6 7 8]
