@@ -104,6 +104,10 @@ Type in the second sequence = [2 1 3 5 6 3 5 9]
 
 <img width="964" height="1536" alt="WhatsApp Image 2026-09-25 at 12 10 17 PM" src="https://github.com/user-attachments/assets/647a9762-0fd4-4e39-bd3e-81354ddce40f" />
 
+# OUTPUT GRAPH
+<img width="1280" height="753" alt="WhatsApp Image 2026-09-25 at 2 42 15 PM" src="https://github.com/user-attachments/assets/fdc44850-820d-4d2d-8b72-879d81a963be" />
+
+
 
 # RESULT:
 Thus the mean , variance and cross correlation are executed in Scilab and output is verified.
