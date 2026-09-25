@@ -32,7 +32,7 @@ clc;
 
 // Mean of X
 function X = f(x)
-    z = 2 * (1 - x)^2;
+    z = 4 * (1 - x)^2;
     X = x * z;
 endfunction
 
@@ -42,7 +42,7 @@ EX = intg(a, b, f);
 
 // Mean of Y
 function Y = c(y)
-    z = 2 * (1 - y)^2;
+    z = 4 * (1 - y)^2;
     Y = y * z;
 endfunction
 
@@ -53,7 +53,7 @@ disp(EY, "i) Mean of Y =");
 
 // Variance of X
 function X = g(x)
-    z = 2 * (1 - x)^2;
+    z = 4 * (1 - x)^2;
     X = x^2 * z;
 endfunction
 
@@ -61,7 +61,7 @@ EX2 = intg(a, b, g);
 
 // Variance of Y
 function Y = h(y)
-    z = 2 * (1 - y)^2;
+    z = 4 * (1 - y)^2;
     Y = y^2 * z;
 endfunction
 
