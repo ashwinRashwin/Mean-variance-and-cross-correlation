@@ -25,10 +25,6 @@ To write a program for mean, variance and cross correlation in SCILAB and verify
 •	If any Error, correct it in code and execute again
 •	Verify the generated results
 
-# TABULATION
-
-<img width="964" height="1536" alt="WhatsApp Image 2026-09-25 at 12 10 17 PM" src="https://github.com/user-attachments/assets/647a9762-0fd4-4e39-bd3e-81354ddce40f" />
-
 # PROGRAM
 ~~~
 clear;
@@ -103,6 +99,11 @@ Type in the reference sequence = [1 2 3 4 5 6 7 8]
 
 Type in the second sequence = [2 1 3 5 6 3 5 9]
  ~~~
+
+# TABULATION
+
+<img width="964" height="1536" alt="WhatsApp Image 2026-09-25 at 12 10 17 PM" src="https://github.com/user-attachments/assets/647a9762-0fd4-4e39-bd3e-81354ddce40f" />
+
 
 # RESULT:
 Thus the mean , variance and cross correlation are executed in Scilab and output is verified.
