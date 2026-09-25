@@ -29,7 +29,69 @@ To write a program for mean, variance and cross correlation in SCILAB and verify
 
 <img width="964" height="1536" alt="WhatsApp Image 2026-09-25 at 12 10 17 PM" src="https://github.com/user-attachments/assets/647a9762-0fd4-4e39-bd3e-81354ddce40f" />
 
+# PROGRAM
+~~~
+clear;
+clc;
 
+// Mean of X
+function X = f(x)
+    z = 2 * (1 - x)^2;
+    X = x * z;
+endfunction
+
+a = 0;
+b = 1;
+EX = intg(a, b, f);
+
+// Mean of Y
+function Y = c(y)
+    z = 2 * (1 - y)^2;
+    Y = y * z;
+endfunction
+
+EY = intg(a, b, c);
+
+disp(EX, "i) Mean of X =");
+disp(EY, "i) Mean of Y =");
+
+// Variance of X
+function X = g(x)
+    z = 2 * (1 - x)^2;
+    X = x^2 * z;
+endfunction
+
+EX2 = intg(a, b, g);
+
+// Variance of Y
+function Y = h(y)
+    z = 2 * (1 - y)^2;
+    Y = y^2 * z;
+endfunction
+
+EY2 = intg(a, b, h);
+
+vX = EX2 - EX^2;
+vY = EY2 - EY^2;
+
+disp(vX, "ii) Variance of X =");
+disp(vY, "ii) Variance of Y =");
+
+// Cross Correlation
+x = input("Type in the reference sequence: ");
+y = input("Type in the second sequence: ");
+
+n1 = length(y) - 1;
+n2 = length(x) - 1;
+
+// Cross-correlation
+r = corr(x, y, n1);
+
+disp(r, "Cross Correlation =");
+
+// Plot
+plot2d3(r);
+xtitle("Cross Correlation", "Lag", "Correlation");
 
 # OUTPUT
 i)	Mean of X =	0.333 Mean of Y =	0.333
@@ -40,7 +102,7 @@ Cross Correlation
 Type in the reference sequence = [1 2 3 4 5 6 7 8]
 
 Type in the second sequence = [2 1 3 5 6 3 5 9]
- 
+ ~~~
 
 # RESULT:
 Thus the mean , variance and cross correlation are executed in Scilab and output is verified.
